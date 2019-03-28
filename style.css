@@ -1,0 +1,37 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#mainContent {
+    display: flex;
+    height: 60vh;
+}
+
+#countryForm {
+    flex: 1;
+    margin-right: 5px;
+}
+
+#countryList {
+    flex: 2;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+}
+
+#controls  > input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+body {
+    background-image: url("globe.png");
+    background-size: cover;
+    
+}
